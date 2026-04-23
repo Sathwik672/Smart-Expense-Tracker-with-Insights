@@ -9,7 +9,6 @@ def index():
     insights = get_insights()
     expenses = load_expenses()
     
-    # Generate the updated chart whenever we view the dashboard
     chart_filename = generate_pie_chart(insights['category_breakdown'], 'static')
     
     return render_template('index.html', insights=insights, chart_filename=chart_filename, expenses=expenses[-5:]) # Show last 5
