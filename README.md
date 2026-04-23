@@ -1,7 +1,7 @@
 # Smart-Expense-Tracker-with-Insights
 This project is a web-based expense tracker application designed to log, categorize, and analyze daily expenses in a simple and efficient way. It helps automate common personal finance tasks such as tracking spending, generating monthly summaries, and visualizing expense distributions.
 
-Watch the demo video here : 
+Watch the demo video here : https://drive.google.com/file/d/1Axt9MNfdZMCUFX9PA04ebpByhJuY_5qV/view?usp=sharing
 
 Features
 Expense Logging Add and manage daily expenses easily.
