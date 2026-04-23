@@ -29,6 +29,7 @@ Open a terminal in the project directory
 Install the required dependencies using: pip install -r requirements.txt
 
 Running the Application
+
 Run the following command in the project root directory:
 
 python app.py
