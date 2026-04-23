@@ -11,7 +11,7 @@ def index():
     
     chart_filename = generate_pie_chart(insights['category_breakdown'], 'static')
     
-    return render_template('index.html', insights=insights, chart_filename=chart_filename, expenses=expenses[-5:]) # Show last 5
+    return render_template('index.html', insights=insights, chart_filename=chart_filename, expenses=expenses[-5:])
 
 @app.route('/add', methods=['GET', 'POST'])
 def add():
